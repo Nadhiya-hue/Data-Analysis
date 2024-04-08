@@ -1,0 +1,7 @@
+insert into Stud values(1,'James','DataSCI','A',10000);
+
+alter table stud rename to customer;
+
+alter table customer rename column fees to payment;
+
+alter table customer drop column grade;
